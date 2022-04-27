@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Inter:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+body {
+
+  font-family: 'roboto condensed,';
+  background-color: #E6CDCD;
+  color: 764830;
+}
+
+
+.sidebar{
+  color: black;
+  margin: 20px;
+}
+#page1 {
+  background-color: #E6CDCD;
+}
+
+#page2 {
+  background: #E6CDCD url("../images/background.jpg") no-repeat right top;
+  background-size: 100% auto;
+
+}
