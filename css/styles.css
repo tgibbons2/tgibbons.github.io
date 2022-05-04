@@ -1,23 +1,76 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Inter:wght@200&family=Roboto+Condensed:wght@300&display=swap');
+
+  body {
+    font-family: 'roboto condensed,';
+    background-color: #E6CDCD;
+    color: #4B4141;
+  }
+
+    .sidebar{
+      color: black;
+      margin: 20px;
+    }
+    .sidebar2{
+        color: White;
+        margin: 50px;
+        }
+  #page1 {
+    background-color: #E6CDCD;
+  }
+
+  #page2 {
+    background: #E6CDCD url("../images/background.jpg") no-repeat right top;
+    background-size: 100% auto;
+  }
+
+  img {
+  border-radius: 50%;
+
+
+}
+
+<div class=" pages"
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.button {
+  background-color: #E6CDCD;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 16px 8px;
+  cursor: pointer;
+}
+
+.footercol {
+  background-color: #EDE0E0;
+  padding: 50px 32px;
+
+}
+
 body {
-
-  font-family: 'roboto condensed,';
-  background-color: #E6CDCD;
-  color: 764830;
+  color: #4B4141;
 }
 
 
-.sidebar{
-  color: black;
-  margin: 20px;
-}
-#page1 {
-  background-color: #E6CDCD;
+.headercol {
+  background-color: #CFB59E;
+  Padding: 20px 32px;
 }
 
-#page2 {
-  background: #E6CDCD url("../images/background.jpg") no-repeat right top;
-  background-size: 100% auto;
-
+<style>
+.box {
+  height: 300px;
+  width: 300px;
+  margin: 0px;
+  border: 1px solid #ccc;
 }
+.all {
+  box-shadow: 0 0 5px #333;
+}
+</style>
